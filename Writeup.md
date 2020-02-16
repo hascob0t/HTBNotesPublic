@@ -19,4 +19,4 @@ In this case several vulnerabilities where found since no hotfixes were installe
 - If you are planning on using a kernel exploit make sure you compile it by yourself.
 - Make sure you try Sherlock, Watson and local windows exploit suggestor (python).
 
->boom_root
+>\>boom_root
